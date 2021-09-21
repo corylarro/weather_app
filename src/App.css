@@ -9,6 +9,7 @@ main {
   text-align: center;
   padding: 25px;
 }
+
 footer {
   padding: 2px;
   min-height: 100px;
@@ -48,19 +49,12 @@ header {
   100% { transform: rotate(360deg); }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h4 {
+  font-family: 'Rubik', sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(/src/fields-1589613_1920.jpg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
