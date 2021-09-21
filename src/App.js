@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import Forecast from "./components/Forecast/Forecast";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App">
+        <header className="App-header">
+          <h1>Let's Check The Weather</h1>
+        </header>
+      <main>
+        <Forecast />
+      </main>
+      <footer>
+        Page created by Cory Larro
+      </footer>
     </div>
   );
 }
-
 export default App;
